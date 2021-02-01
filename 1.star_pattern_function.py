@@ -13,6 +13,18 @@ def star(a, b):
             print(a * "*")
             a = a - 1
 
-
 star(a, b)
-  
+
+#Making Pyramid.
+a=int(input())
+for i in range(a):
+    for j in range(a-i-1):
+        print(end=" ")
+    for j in range(i+1):
+        print("*",end=' ')
+    print()
+    
+#Making pyramid.
+n = int(input())
+for i in range(n):
+    print(" "*(n-(1+i))+"* "*(1+i))
